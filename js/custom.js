@@ -150,25 +150,12 @@ $(function () {
 	});
 
 	/* Contact-form
-	
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	
 	$.validator.setDefaults({
 		submitHandler: function () {
-		   const nombre = $("input[name='firstname']").val();
-		   const apellido = $("input[name='lastname']").val();
-		   const email = $("input[name='email']").val();
-		   const mensaje = $("textarea[name='message']").val();
-		   
-		   const numeroWhatsApp = "56912345678"; // Número de WhatsApp
-		   const textoMensaje = `Hola, mi nombre es ${nombre} ${apellido}. Mi correo es ${email} y quiero decir: ${mensaje}.`;
-	 
-		   const textoCodificado = encodeURIComponent(textoMensaje);
-		   const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
-		   
-		   window.open(urlWhatsApp, "_blank"); // Abre WhatsApp en una nueva pestaña
+			alert("submitted!");
 		}
-	 });
+	});
 
 	$(document).ready(function () {
 		$("#contact-form").validate({
