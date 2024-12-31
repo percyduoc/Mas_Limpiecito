@@ -446,6 +446,7 @@ a.readmore_bt {
      align-items: center;
      height: 8vh;
      max-width: 200px;
+     min-width: 100px;
      margin: auto;
 
 }
@@ -1124,8 +1125,12 @@ ul.social_icon li a:hover {
      background: url(../images/fondo.jpeg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     padding-bottom: 90px;
-}r
+     padding-bottom: 50px;
+     max-width: 1000rem;
+     min-height: 500px;
+     margin: auto;
+     
+}
 .header {
      position: absolute;
      z-index: 999;
@@ -1183,7 +1188,8 @@ ul.social_icon li a:hover {
      color: #fff;
 }
 .text {
-     position: inherit;
+     position: relative;
+     
      text-align: left;
      background: #0fbbad;
      width: 100%;
@@ -1195,10 +1201,14 @@ ul.social_icon li a:hover {
      padding-top: 134px;
 }
 .banner_main .carousel-caption {
-     position: inherit;
+ 
+     padding-bottom: 0;
+     margin: auto;
+     position: relative;
+     
 }
 .carousel-indicators {
-     right: inherit;
+  
      top: 50%;
      display: block;
      margin-left: 4%;
@@ -1292,8 +1302,8 @@ ul.social_icon li a:hover {
 .wellcome .titlepage p {
      color: #000;
 }
-.wellcome .wellcome-box figure {S
-     margin: 10rem;
+.wellcome .wellcome-box figure {
+     margin: 8rem;
 }
 .wellcome .wellcome-box figure img {
 
