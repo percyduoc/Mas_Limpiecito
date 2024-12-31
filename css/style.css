@@ -1126,10 +1126,12 @@ ul.social_icon li a:hover {
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-bottom: 50px;
-     max-width: 1000rem;
      min-height: 500px;
      margin: auto;
-     
+        
+     height: 100%;    
+     height: 100vh;
+     max-height: 50rem;  
 }
 .header {
      position: absolute;
@@ -1199,6 +1201,9 @@ ul.social_icon li a:hover {
 }
 .slider_section {
      padding-top: 134px;
+     min-width: 20rem;
+     
+     
 }
 .banner_main .carousel-caption {
  
@@ -1208,10 +1213,14 @@ ul.social_icon li a:hover {
      
 }
 .carousel-indicators {
-  
-     top: 50%;
-     display: block;
-     margin-left: 4%;
+     position: absolute; /* Mantén la posición relativa al carrusel */
+     top: 50%; /* Centra verticalmente */
+     left: 0; /* Fija al lado izquierdo */
+     transform: translateY(-50%); /* Ajusta el centro */
+     display: flex; /* Asegúrate de que los indicadores sean un flexbox */
+     flex-direction: column; /* Haz que se apilen verticalmente */
+     justify-content: center; /* Centra los indicadores */
+     gap: 10px; 
 }
 .carousel-indicators li {
      width: 18px;
@@ -1219,6 +1228,8 @@ ul.social_icon li a:hover {
      border-radius: 20px;
      background: #4ac9f0;
      margin: 5px 0px;
+     position: static;
+     
 }
 .carousel-indicators .active {
      background-color: #020607;
@@ -1459,6 +1470,26 @@ ul.social_icon li a:hover {
 .Better_clean figure img {
      width: 100%;
 }
+.insta {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+     grid-template-rows: repeat(2, 1fr);   /* 2 filas */
+     gap: 0.5rem;                         /* Espaciado entre imágenes */
+     width: 100vw;                        /* Ancho total de la ventana */              /* Alto total de la ventana */
+     padding: 0.5rem;                     /* Espaciado interno */
+     box-sizing: border-box;              /* Incluye padding en el tamaño total */
+  }
+  
+  /* Estilo de las imágenes */
+  .insta-img {
+     width: 100%;              /* Ajusta al ancho de la celda */
+     height: 100%;    
+     height: 80vh;
+     max-height: 50rem;         /* Ajusta al alto de la celda */
+     object-fit: cover;        /* Rellena la celda sin deformarse */
+     border-radius: 10px;      /* Opcional: redondea esquinas */
+    position: inherit ;
+  }
 
 /** end Better **/
 
@@ -1566,6 +1597,15 @@ ul.social_icon li a:hover {
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
+}
+.img-wsp{
+     width: 20rem;
+     height: 100%;
+     height: 55vh;
+     max-height: 50rem;
+     object-fit: cover;
+     border-radius: 10px;
+     position: inherit;
 }
 
 /** end review section **/
