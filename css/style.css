@@ -1200,7 +1200,7 @@ ul.social_icon li a:hover {
    
 }
 .slider_section {
-     padding-top: 8rem;
+     padding-top: 6rem;
      margin-bottom: 3rem;
      
      
@@ -1209,21 +1209,20 @@ ul.social_icon li a:hover {
 /* cambio de lado de caja  */
 .banner_main .carousel-caption {
  
-     padding-bottom: 0;
-     left: 1rem;
+     padding-bottom: 0;  
      position: relative;
+     left: 2rem;
      
 }
 /* circulos del carrucel */
 .carousel-indicators {
      position: absolute; /* Mantén la posición relativa al carrusel */
      top: 50%; /* Centra verticalmente */
-     left: 0%; /* Fija al lado izquierdo */
-     transform: translateY(-50%); /* Ajusta el centro */
+     text-align: left;
      display: flex; /* Asegúrate de que los indicadores sean un flexbox */
      flex-direction: column; /* Haz que se apilen verticalmente */
-     justify-content: center; /* Centra los indicadores */
      gap: 10px; 
+     margin-left: 5rem;
 }
 .carousel-indicators li {
      width: 18px;
