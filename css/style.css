@@ -274,16 +274,6 @@ button {
      margin-bottom: 25px;
 }
 
-.small_main_heading h2 {
-     padding: 2px 0 20px 0;
-     color: #114c7d;
-     font-weight: 400;
-     font-size: 28px;
-     background-image: url('../images/fevicon.png');
-     background-repeat: no-repeat;
-     padding-left: 55px;
-     letter-spacing: -0.5px;
-}
 
 .small_main_heading h2 strong {
      color: #38c8a8;
@@ -444,7 +434,7 @@ a.readmore_bt {
      justify-content: center;
      display: flex;
      align-items: center;
-     height: 8vh;
+     height: 5vh;
      max-width: 200px;
      min-width: 100px;
      margin: auto;
@@ -1122,22 +1112,21 @@ ul.social_icon li a:hover {
      color: #fff;
 }
 .header-top {
-     background: url(../images/fondo.jpeg);
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     padding-bottom: 50px;
-     min-height: 500px;
-     margin: auto;
-        
+     background-color: #b5fbfb;
+     /* background: url(../images/fondo.jpeg); */
+     padding-bottom: 5px;
      height: 100%;    
-     height: 100vh;
-     max-height: 50rem;  
+     height: 90vh;
+     max-height: 100%;  
+     box-sizing: border-box;
+     
 }
 .header {
      position: absolute;
      z-index: 999;
      width: 100%;
      padding: 15px 40px;
+     
 }
 .logo a {
      font-size: 40px;
@@ -1148,9 +1137,10 @@ ul.social_icon li a:hover {
 }
 .banner_Client {
      position: relative;
+     
 }
 .text-bg {
-     text-align: left;
+     text-align:left;
 }
 .text-bg span {
      color: #ffffff;
@@ -1158,6 +1148,9 @@ ul.social_icon li a:hover {
      font-size: 55px;
      line-height: 50px;
      text-transform: uppercase;
+     
+     
+  
 }
 .text-bg h1 {
      color: #4ac9f0;
@@ -1167,12 +1160,17 @@ ul.social_icon li a:hover {
      padding-bottom: 25px;
      font-weight: bold;
      text-transform: uppercase;
+     
 }
 .text-bg p {
      color: #ffffff;
      font-size: 17px;
+     
+    
 }
+/* boton contactenos  */
 .text-bg a {
+     
      text-align: center;
      margin-top: 30px;
      font-size: 16px;
@@ -1180,9 +1178,8 @@ ul.social_icon li a:hover {
      color: #fff;
      padding: 10px 0px;
      width: 100%;
-     max-width: 190px;
+     max-width: 290px;
      border-radius: 15px;
-     float: left;
      display: inline-block;
 }
 .text-bg a:hover {
@@ -1190,32 +1187,38 @@ ul.social_icon li a:hover {
      color: #fff;
 }
 .text {
-     position: relative;
-     
-     text-align: left;
+  
      background: #0fbbad;
      width: 100%;
      bottom: auto;
      padding: 0;
-     margin-top: 90px
+     margin-top: 90px;
+     
+     
+     
+   
+   
 }
 .slider_section {
-     padding-top: 134px;
-     min-width: 20rem;
+     padding-top: 8rem;
+     margin-bottom: 3rem;
+     
      
      
 }
+/* cambio de lado de caja  */
 .banner_main .carousel-caption {
  
      padding-bottom: 0;
-     margin: auto;
+     left: 1rem;
      position: relative;
      
 }
+/* circulos del carrucel */
 .carousel-indicators {
      position: absolute; /* Mantén la posición relativa al carrusel */
      top: 50%; /* Centra verticalmente */
-     left: 0; /* Fija al lado izquierdo */
+     left: 0%; /* Fija al lado izquierdo */
      transform: translateY(-50%); /* Ajusta el centro */
      display: flex; /* Asegúrate de que los indicadores sean un flexbox */
      flex-direction: column; /* Haz que se apilen verticalmente */
@@ -1227,7 +1230,6 @@ ul.social_icon li a:hover {
      height: 18px;
      border-radius: 20px;
      background: #4ac9f0;
-     margin: 5px 0px;
      position: static;
      
 }
@@ -1484,7 +1486,7 @@ ul.social_icon li a:hover {
   .insta-img {
      width: 100%;              /* Ajusta al ancho de la celda */
      height: 100%;    
-     height: 80vh;
+     height: 50vh;
      max-height: 50rem;         /* Ajusta al alto de la celda */
      object-fit: cover;        /* Rellena la celda sin deformarse */
      border-radius: 10px;      /* Opcional: redondea esquinas */
@@ -1718,7 +1720,7 @@ ul.social_icon li a:hover {
 /** footer **/
 .footer {
      background: #252525;
-     padding-top: 50px;
+     padding-top: 2rem;
 }
 .follow {
      text-align: center;
@@ -1728,7 +1730,7 @@ ul.social_icon li a:hover {
      font-size: 31px;
      font-weight: 500;
      line-height: 30px;
-     padding-bottom: 25px;
+     padding-bottom: 1rem;
 }
 .follow ul li {
      display: inline-block;
@@ -1752,7 +1754,7 @@ ul.social_icon li a:hover {
 .copyright {
      background: #4ac9f0;
      padding: 15px 0px;
-     margin-top: 50px;
+     margin-top: 5px;
 }
 .copyright p {
      color: #fff;
