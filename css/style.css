@@ -1232,6 +1232,7 @@ ul.social_icon li a:hover {
      flex-direction: column; /* Haz que se apilen verticalmente */
      gap: 10px; 
      margin-left: 5rem;
+     width: 1rem;
 }
 .carousel-indicators li {
      width: 18px;
@@ -1299,7 +1300,7 @@ ul.social_icon li a:hover {
 
 /** wellcome section **/
 .wellcome {
-     padding: 90px 0;
+     padding: 1rem 0;
 }
 .wellcome .titlepage {
      text-align: center;
@@ -1324,7 +1325,7 @@ ul.social_icon li a:hover {
      color: #000;
 }
 .wellcome .wellcome-box figure {
-     margin: 8rem;
+     margin: 1rem;
 }
 .wellcome .wellcome-box figure img {
 
@@ -1373,13 +1374,13 @@ ul.social_icon li a:hover {
 }
 .ourwork {
      background: #023041;
-     padding: 90px 0 70px 0;
+     padding: 10px 0 10px 0;
      background-repeat: no-repeat;
      background-size: cover;
 }
 .ourwork .titlepage {
      text-align: left;
-     padding-bottom: 30px;
+     padding-bottom: 1rem;
 }
 .ourwork .titlepage h2 {
      font-weight: bold;
@@ -1438,7 +1439,7 @@ ul.social_icon li a:hover {
      font-size: 17px;
      line-height: 30px;
      color: #ffffff;
-     padding-bottom: 60px;
+     padding-bottom: 1rem;
 }
 #main_slider1 .carousel-control-prev,
 #main_slider1 .carousel-control-next {
@@ -1494,20 +1495,19 @@ ul.social_icon li a:hover {
   /* Estilo de las imágenes */
   .insta-img {
      width: 100%;              /* Ajusta al ancho de la celda */
-     height: 100%;    
-     height: 50vh;
-     max-height: 50rem;         /* Ajusta al alto de la celda */
+     height: auto;
+     max-height: 100rem;         /* Ajusta al alto de la celda */
      object-fit: cover;        /* Rellena la celda sin deformarse */
      border-radius: 10px;      /* Opcional: redondea esquinas */
-    position: inherit ;
+     position: inherit ;
   }
 
 /** end Better **/
 
 /** review section **/
 .review {
-     padding-top: 90px;
-     padding-bottom: 90px;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
      background: url(../images/banner.jpg);
      background-repeat: no-repeat;
 }

@@ -385,8 +385,8 @@
         height: inherit;
     }
     .review {
-        padding-top: 55px;
-        padding-bottom: 49px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .contact .contact {
         padding: 50px 20px;
