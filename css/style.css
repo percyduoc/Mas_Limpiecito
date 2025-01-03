@@ -434,11 +434,18 @@ a.readmore_bt {
      justify-content: center;
      display: flex;
      align-items: center;
-     height: 5vh;
-     max-width: 200px;
-     min-width: 100px;
+     height: 3vh;
      margin: auto;
+     width: 3.1rem;
+     margin-top: 1rem;
 
+     
+
+}
+.logo img {
+     width: 100%;
+     height: auto;
+     border-radius: 100rem;
 }
 nav.main-menu {
      float: right;
@@ -945,7 +952,7 @@ nav.main-menu {
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #ffffff;
+     color: #000000;
 }
 .main-menu ul li:last-child a {
      padding-right: 0;
@@ -984,7 +991,7 @@ nav.main-menu {
      visibility: hidden;
      width: 240px;
      z-index: 999;
-     background: #fff;
+     background: #000000;
      -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
@@ -1112,13 +1119,14 @@ ul.social_icon li a:hover {
      color: #fff;
 }
 .header-top {
-     background-color: #b5fbfb;
+     background-color: #ffffff;
      /* background: url(../images/fondo.jpeg); */
      padding-bottom: 5px;
      height: 100%;    
-     height: 90vh;
+     height: 100vh;
      max-height: 100%;  
      box-sizing: border-box;
+     margin-bottom: 2rem;
      
 }
 .header {
@@ -1172,7 +1180,7 @@ ul.social_icon li a:hover {
 .text-bg a {
      
      text-align: center;
-     margin-top: 30px;
+     margin-top: 0.5rem;
      font-size: 16px;
      background-color: #020607;
      color: #fff;
@@ -1181,6 +1189,7 @@ ul.social_icon li a:hover {
      max-width: 290px;
      border-radius: 15px;
      display: inline-block;
+     margin-bottom:3rem;
 }
 .text-bg a:hover {
      background-color: #4ac9f0;
@@ -1211,7 +1220,7 @@ ul.social_icon li a:hover {
  
      padding-bottom: 0;  
      position: relative;
-     left: 2rem;
+     left: 1rem;
      
 }
 /* circulos del carrucel */
@@ -1393,6 +1402,7 @@ ul.social_icon li a:hover {
 }
 .ourwork .our figure img {
      width: 100%;
+     border-radius: 10%;
 }
 .ourwork .our p {
      font-size: 15px;
@@ -1736,7 +1746,7 @@ ul.social_icon li a:hover {
      margin: 0 4px;
 }
 .follow ul li a {
-     color: #252525;
+     color: #000000;
      background: #fff;
      width: 45px;
      height: 45px;
