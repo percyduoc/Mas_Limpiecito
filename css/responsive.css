@@ -349,10 +349,14 @@
         padding-bottom: 18px;
     }
     #main_slider a.carousel-control-next {
-        display: none;
+        width: 1rem;
+        height: 2rem;
+        margin-right: -2%;
     }
     #main_slider a.carousel-control-prev {
-        display: none;
+        width: 1rem;
+        height: 2rem;
+        margin-left: -2%;
     }
     .text-bg a {
         float: inherit;
@@ -376,7 +380,9 @@
     }
     #main_slider1 a.carousel-control-next,
     #main_slider1 a.carousel-control-prev {
-        display: none;
+        position: relative;
+     
+
     }
     .contact .contact::after {
         position: inherit;
