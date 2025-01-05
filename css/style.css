@@ -1778,6 +1778,11 @@ ul.social_icon li a:hover {
 .copyright a:hover {
      color: #000;
 }
+.social{
+     color: black;
+     align-items: center;
+     margin-top: 1rem;
+}
 
 /** end footer **/
 
