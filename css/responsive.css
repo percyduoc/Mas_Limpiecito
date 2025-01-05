@@ -329,8 +329,8 @@
     .logo {
         text-align: center !important;
         float: inherit;
-        margin-bottom: 1rem;
-        width: 7rem;
+        margin-bottom: 1.5rem;
+        width: 70%;
     }
     .carousel-indicators {
         margin-left: 0.3%;

@@ -436,7 +436,7 @@ a.readmore_bt {
      align-items: center;
      height: 3vh;
      margin: auto;
-     width: 3.1rem;
+     width: 55%;
      margin-top: 1rem;
 
      
@@ -445,7 +445,6 @@ a.readmore_bt {
 .logo img {
      width: 100%;
      height: auto;
-     border-radius: 100rem;
 }
 nav.main-menu {
      float: right;
