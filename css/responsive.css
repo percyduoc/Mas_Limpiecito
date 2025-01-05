@@ -242,6 +242,7 @@
     }
     .contact .contact {
         padding-left: 30px;
+        text-align: center;
     }
 }
 
@@ -327,8 +328,9 @@
     }
     .logo {
         text-align: center !important;
-        padding-bottom: 5px;
         float: inherit;
+        margin-bottom: 1rem;
+        width: 7rem;
     }
     .carousel-indicators {
         margin-left: 0.3%;
@@ -342,6 +344,7 @@
         padding-top: 25px;
         display: block;
         line-height: 35px;
+        margin-top: 1rem;
     }
     .text-bg h1 {
         font-size: 33px;
@@ -384,12 +387,7 @@
      
 
     }
-    .contact .contact::after {
-        position: inherit;
-        background: inherit;
-        width: inherit;
-        height: inherit;
-    }
+
     .review {
         padding-top: 1rem;
         padding-bottom: 1rem;
