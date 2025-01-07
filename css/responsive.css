@@ -344,6 +344,8 @@
         margin-bottom: 2.8rem;
         width: 50%;
         position: relative;
+        top: 10.5px;
+        left: 0rem;
     }
     .carousel-indicators {
         margin-left: 0.3%;
