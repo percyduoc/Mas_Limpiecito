@@ -436,11 +436,12 @@ a.readmore_bt {
      align-items: center;
      height: 3vh;
      margin: auto;
-     width: 5rem;
-     margin-top: 1rem;
-
-     
-
+     width: 10rem;
+     margin-top: 2rem;
+     position: fixed;    
+     left: 0%;
+     top: 10%;
+     border-radius: 20%;
 }
 .logo img {
      width: 100%;
@@ -1079,7 +1080,7 @@ nav.main-menu {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 .head {
      background: #023041;
-     height: 50px;
+     height: auto;
 }
 ul.email_call {
      padding-top: 12px;
@@ -1206,7 +1207,7 @@ ul.social_icon li a:hover {
    
 }
 .slider_section {
-     padding-top: 6rem;
+     padding-top: 8rem;
      
      
      
@@ -1752,7 +1753,7 @@ ul.social_icon li a:hover {
      
 }
 .social i {  
-     font-size: 20px;
+     font-size: 20px;    
      align-items: center;
 }
 .follow img {

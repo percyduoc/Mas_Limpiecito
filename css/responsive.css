@@ -140,6 +140,18 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        
+        display: flex;
+        align-items: start;
+        height: 3vh;
+        margin: auto;
+        width: 10rem;
+        margin-top: 1rem;
+   
+        
+   
+   }
     .header {
         padding: 15px 0px;
     }
@@ -329,8 +341,9 @@
     .logo {
         text-align: center !important;
         float: inherit;
-        margin-bottom: 2.4rem;
+        margin-bottom: 2.8rem;
         width: 50%;
+        position: relative;
     }
     .carousel-indicators {
         margin-left: 0.3%;
